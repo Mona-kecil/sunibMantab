@@ -2,6 +2,7 @@
 
 by Michaelβ
 
+**Note: You can use C library and syntax in .cpp file (C++), some of the files here have cpp extension but they are written in C.**
 Hope this helps.
 
 ## Quick Nav
