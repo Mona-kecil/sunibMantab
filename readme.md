@@ -1,6 +1,6 @@
 # Algoprog cheatcode suniB
 
-by Michaelβ
+by B27 - KMG
 
 **Note: You can use C library and syntax in .cpp file (C++), some of the files here have cpp extension but they are written in C.**
 Hope this helps.
