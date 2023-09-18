@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
     int n;
     scanf("%d", &n);
-
-    printf("%X\n", n); // Format specifier
+    printf("%x\n", n);
     return 0;
 }

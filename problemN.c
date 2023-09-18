@@ -6,19 +6,13 @@ int main(int argc, char const *argv[])
     float height[3];
     int age[3];
 
-    for (int i = 0; i < 2; i++)
-    {
-        scanf("%s", name[i]);
-        getchar();
-        scanf("%f", &height[i]);
-        scanf("%d", &age[i]);
-    }
-
-    for (int i = 1; i <= 2; i++)
-    {
-        printf("Name %d: %s\n", i, name[i - 1]);
-        printf("Height %d: %.2f\n", i, height[i - 1]);
-        printf("Age %d: %d\n", i, age[i - 1]);
-    }
+    scanf("%s %f %d %s %f %d", name[0], &height[0], &age[0], name[1], &height[1], &age[1]);
+    
+    printf("Name 1: %s\n", name[0]);
+    printf("Height 1: %.2f\n", height[0]);
+    printf("Age 1: %d\n", age[0]);
+    printf("Name 2: %s\n", name[1]);
+    printf("Height 2: %.2f\n", height[1]);
+    printf("Age 2: %d\n", age[1]);
     return 0;
 }

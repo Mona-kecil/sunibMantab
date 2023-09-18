@@ -11,9 +11,9 @@ int main(int argc, char const *argv[])
     getchar();
     scanf("%c %d", &class, &num);
 
-    printf("Id\t: %s\n", studentID);
-    printf("Name\t: %s\n", name);
-    printf("Class\t: %c\n", class);
-    printf("Num\t: %d\n", num);
+    printf("Id    : %s\n", studentID);
+    printf("Name  : %s\n", name);
+    printf("Class : %c\n", class);
+    printf("Num   : %d\n", num);
     return 0;
 }
