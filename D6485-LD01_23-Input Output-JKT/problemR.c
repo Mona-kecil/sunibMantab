@@ -5,10 +5,8 @@ int main(int argc, char const *argv[])
     char studentID[11], name[101], class;
     int num;
 
-    scanf("%s", studentID);
-    getchar();
-    scanf("%[^\n]", name);
-    getchar();
+    scanf("%s\n", studentID);
+    scanf("%[^\n]\n", name);
     scanf("%c %d", &class, &num);
 
     printf("Id    : %s\n", studentID);
