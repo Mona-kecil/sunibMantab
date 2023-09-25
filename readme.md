@@ -3,6 +3,14 @@
 by B27 - KMG
 
 **Note: You can use C library and syntax in .cpp file (C++), some of the files here have cpp extension but they are written in C.**
+
+## SOCS Quick tip
+- Always remember \n
+- Use double instead of float (%lf)
+- Always use tricky test case to test your code
+- 
+
+
 Hope this helps.
 
 ## Quick Nav
