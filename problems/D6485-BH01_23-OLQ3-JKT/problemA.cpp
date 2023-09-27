@@ -14,8 +14,8 @@ int main(int argc, char const *argv[])
 
     for (int i = 0; i < rep; i++)
     {
-        double out = (float)percentage[i] * (float)number[i] / 100.00;
-        printf("%.2lf\n", out);
+        float out = percentage[i] * number[i] / 100;
+        printf("%.2f\n", out);
     }
     return 0;
 }
