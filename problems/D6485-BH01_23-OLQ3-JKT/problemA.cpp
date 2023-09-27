@@ -6,10 +6,10 @@ int main(int argc, char const *argv[])
     scanf("%d", &rep);
 
     int percentage[3];
-    unsigned int number[3];
+    int number[3];
     for (int i = 0; i < rep; i++)
     {
-        scanf("%d %i", &percentage[i], &number[i]);
+        scanf("%d %d", &percentage[i], &number[i]);
     }
 
     for (int i = 0; i < rep; i++)
