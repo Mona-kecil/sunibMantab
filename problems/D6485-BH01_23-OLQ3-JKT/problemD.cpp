@@ -12,7 +12,6 @@ int main()
         {
             bonus_point += 50;
             total_point += bonus_point;
-            printf("Bonus point on click %d: %lld\n", i, bonus_point);
         }
     }
 
