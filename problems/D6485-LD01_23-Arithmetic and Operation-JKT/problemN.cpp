@@ -8,6 +8,6 @@ int main()
 
     double discount_percentage = (float)discounted / (float)normal * 100.00;
 
-    printf("%.2lf%%\n", 100.00 - discount_percentage);
+    printf("%.2f%%\n", 100.00 - discount_percentage);
     return 0;
 }

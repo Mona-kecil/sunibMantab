@@ -7,6 +7,6 @@ int main()
 
     double robot_comment_percentage = robot_comment*100/total_comment;
 
-    printf("%.4lf%%\n", robot_comment_percentage);
+    printf("%.4f%%\n", robot_comment_percentage);
     return 0;
 }

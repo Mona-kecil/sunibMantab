@@ -2,26 +2,24 @@
 
 int main()
 {
-    int a[4], b[4], c[4], d[4];
-
+    double a, b, c, d;
+    double out[3];
     for (int i = 0; i < 3; i++)
     {
-        scanf("(%d+%d)x(%d-%d)", &a[i], &b[i], &c[i], &d[i]);
+        scanf("(%lf+%lf)x(%lf-%lf)", &a, &b, &c, &d);
         getchar();
+        out[i] = (a+b)*(c-d);
     }
 
-    for (int i = 0; i < 3; i++)
-    {
-        printf("%d ", (a[i]+b[i])*(c[i]-d[i]));
-    }
-    printf("\n");
-
+    printf("%.0f %.0f %.0f\n", out[0], out[1], out[2]);
     return 0;
 }
 
-/*
-Sample input
+// Kok pake double siallllll, socs sialllllll
 
+
+
+/*
 (1+2)x(3-4)
 (10+3)x(5-2)
 (9+21)x(45-20)

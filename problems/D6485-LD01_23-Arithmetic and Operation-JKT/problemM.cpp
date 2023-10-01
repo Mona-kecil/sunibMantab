@@ -6,6 +6,6 @@ int main()
     scanf("%d %d", &owned, &total);
 
     double owned_percentage = owned * 100.00 / total;
-    printf("%.2lf%%\n", owned_percentage);
+    printf("%.2f%%\n", owned_percentage);
     return 0;
 }

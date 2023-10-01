@@ -12,7 +12,7 @@ int main()
     for (int i = 0; i < 4; i++)
     {
         double original_price = (double)discounted_price[i] / (1 - (double)discount_percent[i]/100);
-        printf("$%.2lf\n", original_price);
+        printf("$%.2f\n", original_price);
     }
 
     return 0;
