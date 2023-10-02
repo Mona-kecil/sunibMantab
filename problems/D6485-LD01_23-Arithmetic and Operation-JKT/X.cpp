@@ -1,14 +1,11 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
-    int num[3];
-    unsigned int total = 1;
-    for (int i = 0; i < 3; i++)
-    {
-        scanf("%d", &num[i]);
-        total *= num[i];
-    }
-    printf("%u\n", total);
+    double num[3], result;
+
+    scanf("%lf %lf %lf", &num[0], &num[1], &num[2]);
+    result = num[0] * num[1] * num[2];
+    printf("%.0f\n", result);
     return 0;
 }
