@@ -8,7 +8,7 @@
 - Always check the constraint
 - Use double instead of float (%lf)
 - Avoid getchar if isn't necessary
--
+- 
 
 Hope this helps.
 
@@ -18,7 +18,7 @@ Algorithm and Programming
 
 - [Flow control](#flow-control)
 - [Loop](#loop)
-- [Array]
+- [Array] (#array)
 - [Pointers]
 - [Function]
 - [Recursion]

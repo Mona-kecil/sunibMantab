@@ -11,7 +11,7 @@ int main()
         scanf("%d %d", &male_frog, &female_frog);
         int bottom = (male_frog <= female_frog) ? male_frog : female_frog;
         int acquaintanceship = 0;
-        while (bottom >= 0)
+        while (bottom > 0)
         {
             acquaintanceship++;
             male_frog--; female_frog--; bottom--;
