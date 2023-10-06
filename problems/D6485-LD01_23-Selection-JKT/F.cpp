@@ -1,17 +1,32 @@
 #include <stdio.h>
 
-int main()
-{
-    int budget[3];
+int main () {
 
-    scanf("%d %d %d", &budget[0], &budget[1], &budget[2]);
-    
-    int first = 0, second = 0, third = 0;
-    for (int i = 0; i < 3; i++)
-    {
-        if (budget[i] > first) first = budget[i];
+    // Order: daging - sayur - telur
+    int prices[3];
+    const char *items[3] = {"Daging", "Sayur", "Telur"};
+    int tempPrice;
+    const char *tempItem;
+
+    scanf("%d %d %d", &prices[0], &prices[1], &prices[2]);
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = i+1; j < 3; j++) {
+            if (prices[i] < prices[j]) {
+                tempPrice = prices[j];
+                prices[j] = prices[i];
+                prices[i] = tempPrice;
+
+                tempItem = items[j];
+                items[j] = items[i];
+                items[i] = tempItem;
+            }
+        }
     }
-    printf("%d\n", first);
 
-
+    for (int i = 0; i < 3; i++) {
+        printf("%s\n", items[i]);
+    }
+    
+    return 0;
 }
