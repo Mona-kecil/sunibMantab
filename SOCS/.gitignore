@@ -1,0 +1,6 @@
+*.py
+output/
+*Copy*
+Maximum.cpp
+WeirdShape.cpp
+WhiteAndBlackHorse.cpp
